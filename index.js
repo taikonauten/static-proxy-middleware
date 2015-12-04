@@ -9,8 +9,8 @@ module.exports = function(root, rules){
       return next();
 
     serveStatic(root)(req, res, next);
-  }
-}
+  };
+};
 
 
 function match(req, rules){
@@ -24,11 +24,11 @@ function match(req, rules){
       matches = true;
 
       if(rule.fn)
-        return rule.fn.apply(this, arguments)
+        return rule.fn.apply(this, arguments);
 
       return match;
     });
 
     return matches;
-  })
+  });
 }

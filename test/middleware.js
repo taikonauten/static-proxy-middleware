@@ -2,7 +2,6 @@ var expect = require('chai').expect;
 var sinon = require('sinon');
 var middleware = require('../index.js');
 
-function noop(){};
 
 describe('static-proxy-middleware tests', function(){
 
@@ -18,14 +17,14 @@ describe('static-proxy-middleware tests', function(){
     middleware('.', [
       {
         match: /publics/g,
-        fn: function(){ return ''}
+        fn: function(){ return '';}
       }
-    ])(req, null, next)
+    ])(req, null, next);
 
 
     expect(next.calledOnce).to.equal(true);
     expect(req.url).to.equal('/public/js/test.js');
-  })
+  });
 
 
   it('should replace url if rules match', function(){
@@ -40,14 +39,14 @@ describe('static-proxy-middleware tests', function(){
     middleware('.', [
       {
         match: /public/g,
-        fn: function(){ return 'assets'}
+        fn: function(){ return 'assets';}
       }
-    ])(req, null, next)
+    ])(req, null, next);
 
 
     expect(next.calledOnce).to.equal(true);
     expect(req.url).to.equal('/assets/js/test.js');
-  })
-})
+  });
+});
 
 
