@@ -25,7 +25,7 @@
     "proxy"
   ],
   "author": "Haithem Bel Haj <haythem.belhaj@gmail.com> (http://haithembelhaj.github.io)",
-  "license": "ISC",
+  "license": "Apache 2.0",
   "bugs": {
     "url": "https://github.com/dietaikonauten/static-proxy-middleware/issues"
   },
