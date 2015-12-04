@@ -1,6 +1,6 @@
 {
   "name": "static-proxy-middleware",
-  "version": "0.0.1",
+  "version": "0.9.1",
   "description": "A proxy middleware for static assets",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haithembelhaj/static-proxy-middleware.git"
+    "url": "git+https://github.com/dietaikonauten/static-proxy-middleware.git"
   },
   "keywords": [
     "express",
@@ -27,9 +27,9 @@
   "author": "Haithem Bel Haj <haythem.belhaj@gmail.com> (http://haithembelhaj.github.io)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/haithembelhaj/static-proxy-middleware/issues"
+    "url": "https://github.com/dietaikonauten/static-proxy-middleware/issues"
   },
-  "homepage": "https://github.com/haithembelhaj/static-proxy-middleware#readme",
+  "homepage": "https://github.com/dietaikonauten/static-proxy-middleware#readme",
   "dependencies": {
     "serve-static": "^1.10.0"
   },
