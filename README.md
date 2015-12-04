@@ -43,9 +43,9 @@ The replacer function is optional and works exactly as `String.prototype.replace
 ## Contributing
 
 Everyone is welcome to contribute to this project. Please make sure to write tests for the functionality you want to add.
-use `npm test` to start the tests.
+Use `npm test` to start the tests.
 
 ## Thanks
 
-special thanks to [serve-static](https://github.com/expressjs/serve-static). This project is only a thin wrapper on it.
+special thanks to [serve-static](https://github.com/expressjs/serve-static). This project is only a thin wrapper over it.
 

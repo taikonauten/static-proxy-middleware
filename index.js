@@ -1,19 +1,31 @@
 var serveStatic = require('serve-static');
 
-
+/**
+ * The middleware factory
+ *
+ * @param root: the root folder
+ * @param rules: the rules array
+ * @returns {Function} the middleware function
+ */
 module.exports = function(root, rules){
 
   return function(req, res, next){
 
-    if(!match(req, rules))
+    if(!matches(req, rules))
       return next();
 
     serveStatic(root)(req, res, next);
   };
 };
 
-
-function match(req, rules){
+/**
+ * check if request matches a rule and replace the url if needed
+ *
+ * @param req: the req object
+ * @param rules: the rules array
+ * @returns {boolean}
+ */
+function matches(req, rules){
 
   return rules.some(function(rule){
 
