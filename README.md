@@ -1,6 +1,6 @@
 # static-proxy-middleware
-Is a [connect](https://github.com/senchalabs/connect), [express](https://github.com/strongloop/express) and [browser-sync](https://github.com/BrowserSync/browser-sync) middleware.
-It proxies some matched request to a static folder and is very helpful in testing frontend assets.
+static-proxy-middleware is a [connect](https://github.com/senchalabs/connect), [express](https://github.com/strongloop/express) and [browser-sync](https://github.com/BrowserSync/browser-sync) middleware.
+that proxies some matched request to a static folder and is very helpful for testing frontend assets.
 
 ## Installation
 
