@@ -36,7 +36,7 @@ You can see how simple this middleware is.
 
 ## Rules
 
-This middleware on redirect matched rules that means that you have to specify at least one rule for the middleware to work at all.
+This middleware redirects only matched rules that means that you have to specify at least one rule for the middleware to work at all.
 The replacer function is optional and works exactly as `String.prototype.replace` would.
 
 ## Contributing
