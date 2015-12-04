@@ -39,3 +39,13 @@ You can see how simple this middleware is.
 
 This middleware on redirect matched rules that means that you have to specify at least one rule for the middleware to work at all.
 The replacer function is optional and works exactly as `String.prototype.replace` would.
+
+## Contributing
+
+Everyone is welcome to contribute to this project. Please make sure to write tests for the functionality you want to add.
+use `npm test` to start the tests.
+
+## Thanks
+
+special thanks to [serve-static](https://github.com/expressjs/serve-static). This project is only a thin wrapper on it.
+
